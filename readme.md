@@ -44,5 +44,3 @@ curl -H "Authorization: jwt __TOKEN__" http://localhost:3000/get_data
 ```sh
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
 ```
-### Test Token
-`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJib2R5IjoiQVVUSE9SSVpFRCIsImlhdCI6MTYyMjg4MTEwNn0.4uoy-N-XOw6VmAJkw94RbBqXWCtCZpi540zrbb-fp18`
